@@ -16,6 +16,8 @@ setup(
         "textblob",
         "tweepy",
         "wordcloud",
+        "dbt-snowflake",
+        "dagster-dbt",
     ],
     extras_require={"dev": ["dagster-webserver", "pytest"]},
 )
